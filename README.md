@@ -23,13 +23,13 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: loranger.debian-mytop }
+         - { role: cowops.debian-mytop }
 
 Tasks
 -----
 
   - Install [mytop](https://github.com/gregorg/mytop)
-  
+
 
 License
 -------
