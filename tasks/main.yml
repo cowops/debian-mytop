@@ -1,6 +1,8 @@
 ---
 - name: remove mytop from deb
-  apt: name=mytop state=absent 
+  apt:
+    name: mytop
+    state: absent
 
 - name: check mytop
   stat: path=/usr/bin/mytop
